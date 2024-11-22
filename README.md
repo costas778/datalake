@@ -35,7 +35,7 @@ Terraform is a high level IAC solution that provisions whole environments (in ou
 
 Before that, however, Let's break down what the services above in the diagram do.
 
-**Amazon API Gateway **
+**Amazon API Gateway**
 
 Amazon API Gateway is a fully managed service that enables developers to create, publish, maintain, monitor, and secure APIs at any scale. Here are its key functions:
 
