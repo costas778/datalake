@@ -32,3 +32,17 @@ Instead of doing this manually with multiple clicks we wiil use declarative scri
 In particular we are going to use Terraform. 
 
 Terraform is a high level IAC solution that provisions whole environments (in our case AWS).  
+
+Before that, however, Let's break down what the services above in the diagram do.
+
+Amazon API Gateway Amazon API Gateway is a fully managed service that enables developers to create, publish, maintain, monitor, and secure APIs at any scale. Here are its key functions:
+
+Acts as a "Front Door":
+Serves as an entry point for applications to access data, business logic, or functionality from backend services Can connect to services like AWS Lambda, EC2, or any web application
+
+Core Features:
+Traffic Management: Handles large numbers of concurrent API calls Authorization & Security: Controls access using IAM roles, Lambda authorizers, or OAuth Monitoring & Metrics: Tracks API usage and performance
+
+The service handles all the heavy lifting of accepting and processing API calls, including traffic management, authorization, monitoring, and version management, allowing developers to focus on their application logic.
+
+
